@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Projects</title>
+		<meta name="description" content="Some inspiration for loading animations on grid items" />
+		<meta name="keywords" content="loading, animation, grid, animation, effects, inspiration, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
+		<link rel="stylesheet" href="css/lightbox.css">
+		<link rel="stylesheet" href="portfolio.css">
+		<link rel="stylesheet" href="css/opening.css">
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+		</svg>
+		<main>
+			<section class="header">
+				<nav>
+					<a href="index.html"><i class="fa-solid fa-house"></i></a>
+					<div class="nav-links" id="navLinks">
+						<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="portfolio.html">Projects</a></li>
+						</ul>
+					</div>
+					<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+				</nav>
+			</section>
+			<header class="codrops-header">
+				<h1 class="codrops-header__title">Porfolio</h1>
+			</header>
+			<div class="content content--side content--right">
+				<div class="control control--effects">
+					
+					<div class="control__item ">
+						<div class="control control--effects">
+						<input class="control__radio" class="control__btn" data-fx="Ptah" type="radio" name="grid-type" value="grid--type-a" id="control-grid-a">
+						<label class="control__label2" for="control-grid-a"><span class="control__title">Projects</span></label>
+					</div>
+					</div>
+					<div class="control__item ">
+						<div class="control control--effects">
+						<input class="control__radio" class="control__btn" data-fx="Hapi" type="radio" name="grid-type" value="grid--type-o" id="control-grid-o">
+						<label class="control__label" for="control-grid-o">elRabwa</label>
+					</div>
+					</div>
+						<div class="control__item ">
+							<div class="control control--effects">
+							<input class="control__radio" class="control__btn" data-fx="Amun" type="radio" name="grid-type" value="grid--type-b" id="control-grid-b">
+							<label class="control__label" for="control-grid-b">Africana Hotel</label>
+						</div>
+					</div>
+					<div class="control__item ">
+							<div class="control control--effects">
+							<input class="control__radio" class="control__btn" data-fx="Kek" type="radio" name="grid-type" value="grid--type-c" id="control-grid-c">
+							<label class="control__label" for="control-grid-c">Fady land</label>
+						</div>
+					</div>
+					<div class="control__item ">
+						<div class="control control--effects">
+						<input class="control__radio" class="control__btn" data-fx="Isis" type="radio" name="grid-type" value="grid--type-d" id="control-grid-d">
+						<label class="control__label" for="control-grid-d">Grand view</label>
+					</div>
+				</div>
+				<div class="control__item ">
+					<div class="control control--effects">
+					<input class="control__radio" class="control__btn" data-fx="Montu" type="radio" name="grid-type" value="grid--type-e" id="control-grid-e">
+					<label class="control__label" for="control-grid-e">King Garden</label>
+				</div>
+			</div>
+			<div class="control__item ">
+				<div class="control control--effects">
+				<input class="control__radio" class="control__btn" data-fx="Osiris" type="radio" name="grid-type" value="grid--type-f" id="control-grid-f">
+				<label class="control__label" for="control-grid-f">la verna</label>
+			</div>
+		</div>
+		<div class="control__item ">
+			<div class="control control--effects">
+			<input class="control__radio" class="control__btn" data-fx="Satet" type="radio" name="grid-type" value="grid--type-g" id="control-grid-g">
+			<label class="control__label" for="control-grid-g">Panacea</label>
+			</div>
+		</div>
+		<div class="control__item ">
+			<div class="control control--effects">
+			<input class="control__radio" class="control__btn" data-fx="Atum" type="radio" name="grid-type" value="grid--type-h" id="control-grid-h">
+			<label class="control__label" for="control-grid-h">KIAS school</label>
+			</div>
+		</div>
+		<div class="control__item ">
+			<div class="control control--effects">
+			<input class="control__radio" class="control__btn" data-fx="Ra" type="radio" name="grid-type" value="grid--type-i" id="control-grid-i">
+			<label class="control__label" for="control-grid-i">Vidora</label>
+			</div>
+		</div>
+		<div class="control__item ">
+			<div class="control control--effects">
+			<input class="control__radio" class="control__btn" data-fx="Sobek" type="radio" name="grid-type" value="grid--type-j" id="control-grid-j">
+			<label class="control__label" for="control-grid-j">Villa nova</label>
+			</div>
+		</div>
+					<button class="control__btn" data-fx="Ptah">Ptah</button>
+					<button class="control__btn" data-fx="Bes">Bes</button>
+					<button class="control__btn" data-fx="Seker">Seker</button>
+					<button class="control__btn" data-fx="Nut">Nut</button>
+					<button class="control__btn" data-fx="Shu">Shu</button>
+				</div>
+			</div>
+			<div class="content content--center">
+				<div class="grid grid--type-a">
+					<div class="grid__sizer"></div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/1.JPG" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Grand view</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/2.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Africana</h3>
+								<p>Hotel</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#control-grid-b">
+							<img class="grid__img" src="Images/opening/3.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Villa nova</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/4.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>King Garden</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/5.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>KIAS</h3>
+								<p>School</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/7.JPG" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Fady land</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2" >
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/6.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>elRabwa</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/8.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>la Verna</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/9.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Panacea</h3>
+								<p>Resort</p>
+							</figcaption>
+						</a>
+					</div>
+					<div class="grid__item grid__item2">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="Images/opening/10.jpg" alt="Some image" />
+							<figcaption style="color: #fff;">
+								<h3>Vidora</h3>
+								<p>Compound</p>
+							</figcaption>
+						</a>
+					</div>
+				</div>
+				<div class="grid grid--type-o" >
+					<div class="grid__sizer"></div>
+					
+						<div class="grid__item">
+							<a class="grid__link" href="Images/elrabwa/1.jpg" data-lightbox="Rabwa" data-title="Swimming Pool"><img class="grid__img" src="Images/elrabwa/1.jpg" alt="Some image" /></a>
+						</div>
+					
+						<div class="grid__item">
+							<a class="grid__link" href="Images/elrabwa/2.jpg" data-lightbox="Rabwa" data-title="Green area"><img class="grid__img" src="Images/elrabwa/2.jpg" alt="Some image" /></a>
+						</div>
+					<div class="grid__item">
+						<a class="grid__link" href="Images/elrabwa/3.jpg" data-lightbox="Rabwa" data-title="Relax"><img class="grid__img" src="Images/elrabwa/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="Images/elrabwa/4.jpg" data-lightbox="Rabwa" data-title="Compound"><img class="grid__img" src="Images/elrabwa/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="Images/elrabwa/5.jpg" data-lightbox="Rabwa" data-title="Blue & Green"><img class="grid__img" src="Images/elrabwa/5.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-b">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/6.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/7.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/8.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/9.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/10.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/11.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/12.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/13.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/14.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/15.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/16.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/17.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/18.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/19.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/20.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/21.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/22.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/23.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/africana hotel/24.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-c">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/fady land/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/fady land/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/fady land/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/fady land/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/fady land/5.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-d">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/6.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Grand view/7.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-e">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/king garden/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/king garden/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/king garden/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/king garden/4.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-f">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/la verna/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/la verna/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/la verna/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/la verna/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/la verna/5.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-g">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/6.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/7.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/8.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/9.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/10.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/11.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/12.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/13.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/14.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/15.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/16.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/17.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/18.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/19.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/20.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/21.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/22.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/panacea/23.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-h">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/6.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/7.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/8.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/school KLS/9.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-i">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/Vidorra/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/vidorra/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/vidorra/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/vidorra/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/vidorra/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/vidorra/6.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+				<div class="grid grid--type-j">
+					<div class="grid__sizer"></div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/1.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/2.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/3.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/4.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/5.jpg" alt="Some image" /></a>
+					</div>
+					<div class="grid__item">
+						<a class="grid__link" href="#"><img class="grid__img" src="Images/villa nova/6.jpg" alt="Some image" /></a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+		<script src="js/opening.js"></script>
+	</body>
+</html>
